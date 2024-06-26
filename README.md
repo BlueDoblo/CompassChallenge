@@ -15,16 +15,20 @@ Encuentra posibles duplicados entre una lista de contactos comparando cada conta
 ### readContactsFromFile
 Lee los contactos desde un archivo de texto (filename) y los carga en un array de estructuras Contact. Retorna el número de contactos leídos.
 
-Uso
+### Uso
 Compile el programa usando un compilador de C. 
 Asegúrese de tener un archivo contacts.txt en el mismo directorio.
 El archivo debe contener los datos de los contactos en el formato especificado. 
 Ejecute el programa para encontrar posibles duplicados entre los contactos y vea los resultados en la consola.
 
 El archivo contacts.txt debe contener los datos de los contactos en el siguiente formato:
-ContactID;First Name;Last Name;Email Address;Zip Code;Address
+
+ContactID;First Name;Last Name;Email Address;Zip Code;
+
 1001;C;F;mollis.lectus.pede@outlook.net;;449-6990 Tellus. Rd.
+
 1002;C;French;mollis.lectus.pede@outlook.net;39746;449-6990 Tellus. Rd.
+
 1003;Ciara;F;non.lacinia.at@zoho.ca;39746;
 
 Para procesar el archivo asegúrese de que no haya líneas de encabezado en el archivo contacts.txt.
