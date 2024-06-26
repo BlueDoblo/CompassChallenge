@@ -32,3 +32,8 @@ ContactID;First Name;Last Name;Email Address;Zip Code;
 1003;Ciara;F;non.lacinia.at@zoho.ca;39746;
 
 Para procesar el archivo asegúrese de que no haya líneas de encabezado en el archivo contacts.txt.
+
+Con el archivo de ejemplo que subi y arme obtengo esta salida
+
+![image](https://github.com/BlueDoblo/CompassChallenge/assets/78155440/61ef46f6-aaec-4de5-a8d4-aed5e2495cf8)
+
